@@ -17,3 +17,13 @@ Route::get('/', function () {
     $message = 'Dynamic Message :D';
     return view('home', compact('message'));
 });
+
+Route::get('/contact', function () {
+
+    $data = [
+        'contact' => 'lorenzo21neri@gmail.com',
+        'message' => 'Ciao a tutti!'
+    ];
+
+    return view('contact', compact('data'));
+});
