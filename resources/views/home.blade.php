@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+@include('/layout/head')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
+<h1>
+    Hello Laravel!
+</h1>
 
-<body>
-    <header>
-        <a href="/contact">Contacts</a>
-    </header>
-    <h1>
-        Hello Laravel!
-    </h1>
-
-    <h3 style="color: red;">
-        {{$message}}
-    </h3>
+<h3 style="color: red;">
+    {{$message}}
+</h3>
 </body>
 
 </html>
