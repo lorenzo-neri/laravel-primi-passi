@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <header>
+        <a href="/">Home</a>
+    </header>
     <h1>
         {{$data['message']}}
     </h1>
